@@ -9,7 +9,7 @@ int main(int argc, char **argv)
         printf("Input file: %s\n", argv[1]);
         printf("Output file: %s\n\n", argv[2]);
     } else {
-        printf("Too few command line parameters. Expected 2 parameters: Input file and output files\n");
+        printf("Wrong number of command line parameters. Expected 2 parameters: Input file and output files\n");
         printf("Usage: dat2cf <input file path> <output file path>\n");
         return 1;
     }
