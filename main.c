@@ -28,7 +28,7 @@ int main(int argc, char **argv)
             {
                 fwrite(&buffer[i], 1, 1, ofp);
                 writeByte++;
-                fwrite(&blank, 1,1, ofp);
+                fwrite(&blank, 1, 1, ofp);
                 writeByte++;
             }
         }
